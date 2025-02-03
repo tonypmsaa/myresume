@@ -1,0 +1,78 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+body {
+  .roboto-<uniquifier > {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+ }
+}
+ 
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 15px;
+  }
+  h2 {
+    font-size: 22px;
+    color: #2c3e50;
+  }
+
+  h2 {
+    margin-top: 20px;
+    border-bottom: 2px solid #ccc; /* Adds a subtle separator */
+    padding-bottom: 5px;
+  }
+ 
+  h2,
+  h3 {
+    padding-left: 10px;
+  }
+  p,
+  ul {
+    margin-bottom: 10px;
+  }
+  p {
+    max-width: 80%;
+    text-align: justify;
+    padding-right: 10px;
+    width: 100%;
+  }
+  ul {
+    list-style-type: disc;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+.spp-text, .granicus-text, .btt-text, .amazon-text {
+margin-left: 30px; /* Indents sub-bullets further from the main bullet */
+ padding-left: 10px;
+}
+h1, .contact-details, .job-role{
+    text-align: center; /* Center-aligns text for both */
+    width: 80%; /* Optional: Restricts width for better readability */
+    margin: 0 auto; /* Centers the block elements */
+}
+p {    line-height: 1.5;
+}
+.summary, .education{
+max-width: 80%;
+    text-align: justify;
+    padding-right: 10px;
+  padding-left: 20px;
+    width: 100%;
+  }
+  
+}
+}
